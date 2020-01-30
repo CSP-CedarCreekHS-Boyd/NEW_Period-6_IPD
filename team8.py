@@ -7,8 +7,11 @@
 ####
 
 team_name = 'andrew and jackson' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'the throw-off strat'
+strategy_description = 'we collude the first round, and continue to basing it'
+'off of the history of the last four rounds. if there is a similarity, then'
+'we will do the opposite, however, if there is no similarity, then we continue'
+'to do what we have done previously.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
